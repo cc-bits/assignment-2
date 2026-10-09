@@ -5,7 +5,7 @@ PORT = 8000
 
 class AppHandler(BaseHTTPRequestHandler):
     def do_GET(self):
-        body = "Really advanced Git Docker App\nStatus: healthy - U66520657\n"
+        body = "Really advanced, but also not an advanced Git Docker App\nStatus: healthy - U66520657\n"
 
         self.send_response(200)
         self.send_header("Content-Type", "text/plain")
